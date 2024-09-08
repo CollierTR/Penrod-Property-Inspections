@@ -40,16 +40,17 @@ export default function ServiceOverlay() {
       <RemoveScrollBar />
 
 
-      <div className="text-light fixed top-0 w-full bg-light  h-screen z-50 overflow-y-scroll">
+      <div className="text-light fixed top-0 w-screen bg-light  h-screen z-50 overflow-y-scroll">
         <Nav></Nav>
-        <div className="py-28 flex w-10/12 justify-center place-items-center mx-auto gap-6">
-          <div className="flex place-items-start justify-center w-1/2">
-            <img src="https://placehold.co/400x400?text=Your+Image+Here" alt="" className="w-3/4" />
+        <div className="pb-10 lg:py-28 flex flex-col lg:flex-row w-10/12 justify-center place-items-center mx-auto gap-6">
+          <div className="flex place-items-start justify-center w-10/12 lg:w-1/2">
+            <img src="https://placehold.co/400x400?text=Your+Image+Here" alt="" className="w-full lg:w-3/4" />
           </div>
-          <div className="flex text-dark w-1/2 flex-col justify-start place-items-start gap-6">
-            <h2 className="text-6xl text-pretty">{serviceMatch.ServiceName}</h2>
+
+          <div className="text-center lg:text-start flex text-dark w-10/12 lg:w-1/2 flex-col justify-start place-items-center lg:place-items-start gap-6">
+            <h2 className="text-6xl text-pretty text-center lg:text-start">{serviceMatch.ServiceName}</h2>
             <p className="text-2xl mb-2">{serviceMatch.Description}</p>
-            <div className="flex w-full justify-start">
+            <div className="flex w-fit justify-start place-items-center">
               <a href="tel:6604122963">
                 <button className=" bg-primary text-light  rounded-full border-4 border-dark py-2 px-4 text-xl">
                   <FontAwesomeIcon icon={faCalendarDays} className="mr-4" />
@@ -58,6 +59,7 @@ export default function ServiceOverlay() {
               </a>
             </div>
           </div>
+
         </div>
 
         <CenteredMap hasBorder={true} />

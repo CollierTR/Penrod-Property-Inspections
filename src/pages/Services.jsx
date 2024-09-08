@@ -31,7 +31,7 @@ export default function Services() {
         </div>
 
 
-        <div className={`bg-[url('../../public/house.png')] opacity-35 bg-no-repeat bg-cover bg-center h-full w-full overflow-hidden absolute z-10`}>
+        <div className={`bg-[url('/house.png')] opacity-35 bg-no-repeat bg-cover bg-center h-full w-full overflow-hidden absolute z-10`}>
         </div>
 
       </div>
@@ -41,7 +41,7 @@ export default function Services() {
       }
       <div className="bg-primary pb-16">
 
-        <div className="mx-auto p-6 py-20 sm:p-20 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 justify-center place-items-stretch bg-primary gap-4 lg:gap-6 w-full md:w-11/12 xl:w-10/12">
+        <div className="mx-auto py-20 sm:p-20 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 justify-center place-items-stretch bg-primary gap-4 lg:gap-6 w-11/12 xl:w-10/12">
 
 
           {// SECT: --------------------- Service Cards --------------------------]

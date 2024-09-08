@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom"
-import logoClose from "../../public/PenrodClose.png"
-import redLogo from "../../public/PenrodRed.png"
+import logoClose from "/PenrodClose.png"
+import redLogo from "/PenrodRed.png"
 import { faBars } from "@fortawesome/free-solid-svg-icons"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import NavMenu from "./NavMenu"

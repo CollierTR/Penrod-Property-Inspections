@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom"
 import { RemoveScrollBar } from "react-remove-scroll-bar"
-import logo from '../../public/PenrodClose.png'
+import logo from '/PenrodClose.png'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faClose } from "@fortawesome/free-solid-svg-icons"
 

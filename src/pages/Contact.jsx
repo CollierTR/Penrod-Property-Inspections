@@ -23,7 +23,7 @@ export default function Contact() {
         </div>
 
 
-        <div className={`bg-[url('../../public/house.png')] opacity-35 bg-no-repeat bg-cover bg-center h-full w-full overflow-hidden absolute z-10`}>
+        <div className={`bg-[url('/house.png')] opacity-35 bg-no-repeat bg-cover bg-center h-full w-full overflow-hidden absolute z-10`}>
         </div>
 
       </div>

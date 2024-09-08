@@ -1,4 +1,4 @@
-import logo from '../../public/PenrodRed.png'
+import logo from '/PenrodRed.png'
 import { Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCircle, faEnvelope, faPhone, faQuestion } from '@fortawesome/free-solid-svg-icons'

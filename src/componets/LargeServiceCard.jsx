@@ -22,7 +22,7 @@ export default function LargeServiceCard({ img = genericCard.img, buttonText = g
         <div className="flex flex-col gap-4 justify-center place-items-center p-6">
           <h3 className="text-2xl sm:text-3xl text-center">{title}</h3>
           <p className="text-pretty text-center">{text}</p>
-          <Link to={`/services/${href}`}>
+          <Link to={`${href}`}>
             <Button text={buttonText} bgColor="bg-dark" size="text-lg" padding="px-3 py-1" />
           </Link>
         </div>
