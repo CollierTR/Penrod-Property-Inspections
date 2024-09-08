@@ -12,7 +12,7 @@ export default function ServiceCard({ href = '#', img = genericCard.img, buttonT
 
 
   return (
-    <div className="flex flex-col bg-light  justify-center place-items-center w-10/12 sm:w-1/2 lg:w-1/5">
+    <div className="flex flex-col bg-light  justify-center place-items-center w-10/12 sm:w-1/2 md:1/6 lg:w-1/5">
 
       <img src={img} alt="" className="w-full" />
 

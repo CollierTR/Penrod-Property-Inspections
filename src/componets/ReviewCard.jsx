@@ -7,7 +7,7 @@ export default function ReviewCard() {
   return (
     <div className="text-start p-6 flex flex-col justify-center place-items-start gap-4 text-dark bg-light rounded-xl w-10/12 sm:w-1/2 lg:w-1/4">
 
-      <div className="flex justify-between place-items-center w-full">
+      <div className="flex justify-between place-items-center w-full lg:py-2 xl:py-4">
         <img src="/google.png" alt="" className="size-1/12" />
         <div className="flex flex-row text-[gold]">
           <FontAwesomeIcon icon={faStar} />
