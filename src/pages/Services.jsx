@@ -39,7 +39,7 @@ export default function Services() {
 
       {// SECT: --------------------- Service-list section --------------------------]
       }
-      <div className="bg-primary pb-16">
+      <div className="bg-primary border-t-2 border-t-light pb-16">
 
         <div className="mx-auto py-20 sm:p-20 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 justify-center place-items-stretch bg-primary gap-4 lg:gap-6 w-11/12 xl:w-10/12">
 
