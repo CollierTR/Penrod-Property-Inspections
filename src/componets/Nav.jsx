@@ -22,7 +22,7 @@ export default function Nav() {
 
       {//SECT: This is the mobile nav [closed element]
       }
-      <div className="flex border-b-light border-b-4 bg-primary h-20 sm:hidden justify-between place-items-center text-light px-5">
+      <div className="flex border-b-light border-b-2 bg-primary h-20 sm:hidden justify-between place-items-center text-light px-5">
 
         <img src={logoClose} width={'60px'} alt="" />
         <FontAwesomeIcon onClick={() => (setMenuState(true))} icon={faBars} size="3x" />
