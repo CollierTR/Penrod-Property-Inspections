@@ -29,7 +29,7 @@ export default function ServicesSection() {
       }
       <div className="flex flex-col lg:flex-row justify-center place-items-center lg:place-items-stretch gap-4 text-dark w-full">
         <ServiceCard title="Home Inspection" href="home-inspection" />
-        <ServiceCard title="Septic Inspection" href="septic-inspection" />
+        <ServiceCard title="Septic/Sewer Inspection" href="septic-inspection" />
         <ServiceCard title="Mold Testing" href="mold-testing" />
       </div>
 

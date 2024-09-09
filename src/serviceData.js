@@ -1,4 +1,3 @@
-
 const serviceData = [
   {
     ServiceName: "Home Inspection",
@@ -10,7 +9,7 @@ const serviceData = [
     link: "home-inspection",
   },
   {
-    ServiceName: "Septic Inspection",
+    ServiceName: "Septic/Sewer Inspection",
     Description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam hic aut quisquam officia veritatis sunt eos, ipsa commodi, doloremque nemo, laboriosam velit nisi tempore necessitatibus eligendi numquam odio nobis provident!",
     image: "",
@@ -66,4 +65,3 @@ const serviceData = [
 ];
 
 export default serviceData;
-
