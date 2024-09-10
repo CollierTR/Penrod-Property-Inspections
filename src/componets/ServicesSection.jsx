@@ -28,9 +28,9 @@ export default function ServicesSection() {
         //SECT: Three cards  
       }
       <div className="flex flex-col lg:flex-row justify-center place-items-center lg:place-items-stretch gap-4 text-dark w-full">
-        <ServiceCard title="Home Inspection" href="home-inspection" />
-        <ServiceCard title="Septic/Sewer Inspection" href="septic-inspection" />
-        <ServiceCard title="Mold Testing" href="mold-testing" />
+        <ServiceCard text="Ensure your home is safe and sound with our comprehensive home inspection services. Our certified inspectors thoroughly evaluate all major systems and components, providing you with a detailed report and peace of mind." title="Home Inspection" href="home-inspection" img="/KyleOnRoof.png" />
+        <ServiceCard text="Ensure your septic and sewer systems are functioning properly with our thorough inspection services. Our certified inspectors identify issues early, providing you with detailed reports and effective solutions to maintain a healthy and efficient system." title="Septic/Sewer Inspection" href="septic-inspection" img="https://allsepticandsewer.com/wp-content/uploads/2021/05/PHOTO-FINAL-WHO-PAYS-FOR-SEPTIC-SYSTEM-INSPECITON.jpg" />
+        <ServiceCard text="Our certified experts provide thorough mold inspections to ensure your home is safe and healthy. We detect both visible and hidden mold, offering accurate results and effective solutions." title="Mold Testing" href="mold-testing" img="https://bactronix.com/wp-content/uploads/2024/05/AdobeStock_188815897-scaled.jpeg" />
       </div>
 
     </div>

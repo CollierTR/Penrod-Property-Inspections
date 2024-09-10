@@ -13,10 +13,10 @@ export default function Contact() {
 
         <div className=' max-w-6xl absolute z-20 text-light flex flex-col gap-5 sm:gap-6 justify-center place-items-center shadow'>
           <div className=" text-4xl sm:text-6xl ">
-            <h1>Contact Us</h1>
+            <h1>Get In Touch!</h1>
           </div>
           <div className="w-1/2 my-0 mx-auto border sm:border-2 border-light"></div>
-          <p className='text-2xl sm:text-3xl text-wrap w-3/4'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque odio libero similique perferendis neque expedita velit itaque blanditiis suscipit?</p>
+          <p className='text-2xl sm:text-3xl text-wrap w-3/4'>Have a question or need assistance? Fill out the form below, and we’ll get back to you soon. We’re here to help!</p>
           <a href="tel:6604122963">
             <Button padding='py-2 px-4' size='text-lg sm:text-xl' text='Give Us a Call!' isCallButton="yes"></Button>
           </a>

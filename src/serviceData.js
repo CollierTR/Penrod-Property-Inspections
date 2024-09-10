@@ -2,8 +2,8 @@ const serviceData = [
   {
     ServiceName: "Home Inspection",
     Description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam hic aut quisquam officia veritatis sunt eos, ipsa commodi, doloremque nemo, laboriosam velit nisi tempore necessitatibus eligendi numquam odio nobis provident!",
-    image: "",
+      "Ensure your home is safe and sound with our comprehensive home inspection services. Our certified inspectors thoroughly evaluate all major systems and components, providing you with a detailed report and peace of mind.",
+    image: "/KyleOnRoof.png",
     Price: 567,
     id: 1,
     link: "home-inspection",
@@ -11,8 +11,9 @@ const serviceData = [
   {
     ServiceName: "Septic/Sewer Inspection",
     Description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam hic aut quisquam officia veritatis sunt eos, ipsa commodi, doloremque nemo, laboriosam velit nisi tempore necessitatibus eligendi numquam odio nobis provident!",
-    image: "",
+      "Ensure your septic and sewer systems are functioning properly with our thorough inspection services. Our certified inspectors identify issues early, providing you with detailed reports and effective solutions to maintain a healthy and efficient system.",
+    image:
+      "https://allsepticandsewer.com/wp-content/uploads/2021/05/PHOTO-FINAL-WHO-PAYS-FOR-SEPTIC-SYSTEM-INSPECITON.jpg",
     Price: 567,
     id: 2,
     link: "septic-inspection",
@@ -20,8 +21,9 @@ const serviceData = [
   {
     ServiceName: "Commercial Building Inspection",
     Description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam hic aut quisquam officia veritatis sunt eos, ipsa commodi, doloremque nemo, laboriosam velit nisi tempore necessitatibus eligendi numquam odio nobis provident!",
-    image: "",
+      "Ensure your commercial property is in top condition with our comprehensive inspection services. Our certified inspectors thoroughly evaluate all major systems and components, providing detailed reports to help you make informed decisions. Trust us to deliver accurate assessments and peace of mind.",
+    image:
+      "https://archinspections.com/wp-content/uploads/2022/06/NJ-Commercial-Property-Inspections.jpg",
     Price: 567,
     id: 3,
     link: "commercial-building-inspection",
@@ -29,8 +31,9 @@ const serviceData = [
   {
     ServiceName: "Radon Testing",
     Description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam hic aut quisquam officia veritatis sunt eos, ipsa commodi, doloremque nemo, laboriosam velit nisi tempore necessitatibus eligendi numquam odio nobis provident!",
-    image: "",
+      "Ensure your home is safe from radon with our professional testing services. Our certified experts use reliable methods to detect radon levels, providing you with accurate results and peace of mind.",
+    image:
+      "https://newenglandradon.com/wp-content/uploads/2021/11/New-England-Radon-Radon-Testing.jpg",
     Price: 567,
     id: 4,
     link: "radon-testing",
@@ -38,8 +41,9 @@ const serviceData = [
   {
     ServiceName: "Mold Testing",
     Description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam hic aut quisquam officia veritatis sunt eos, ipsa commodi, doloremque nemo, laboriosam velit nisi tempore necessitatibus eligendi numquam odio nobis provident!",
-    image: "",
+      "Our certified experts provide thorough mold inspections to ensure your home is safe and healthy. We detect both visible and hidden mold, offering accurate results and effective solutions.",
+    image:
+      "https://bactronix.com/wp-content/uploads/2024/05/AdobeStock_188815897-scaled.jpeg",
     Price: 567,
     id: 5,
     link: "mold-testing",
@@ -47,8 +51,8 @@ const serviceData = [
   {
     ServiceName: "Home Maintenance Inspection",
     Description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam hic aut quisquam officia veritatis sunt eos, ipsa commodi, doloremque nemo, laboriosam velit nisi tempore necessitatibus eligendi numquam odio nobis provident!",
-    image: "",
+      "Keep your home in top condition with our home maintenance inspection services. Our certified inspectors thoroughly evaluate your property to identify potential issues early, helping you maintain a safe and efficient home.",
+    image: "/KyleOnLadder.png",
     Price: 567,
     id: 6,
     link: "home-maintenance-inspection",
@@ -56,8 +60,8 @@ const serviceData = [
   {
     ServiceName: "New Construction Inspections",
     Description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam hic aut quisquam officia veritatis sunt eos, ipsa commodi, doloremque nemo, laboriosam velit nisi tempore necessitatibus eligendi numquam odio nobis provident!",
-    image: "",
+      "Ensure your new home is built to the highest standards with our comprehensive inspection services. Our certified inspectors thoroughly evaluate all phases of construction, providing detailed reports to ensure everything is up to code and meets your expectations",
+    image: "https://www.nashvillesmls.com/uploads/agent-1/home-being-built.jpg",
     Price: 567,
     id: 7,
     link: "new-construction-inspections",
