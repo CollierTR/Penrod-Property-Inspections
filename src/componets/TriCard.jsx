@@ -32,17 +32,17 @@ export default function TriCard() {
         <div className="flex flex-col bg-light p-6 gap-4 justify-center place-items-center w-10/12 sm:w-1/2 lg:w-1/5">
           <FontAwesomeIcon icon={faAward} transform='shrink-6' mask={faCircle} size="3x" />
           <h3 className="text-2xl sm:text-3xl">WHY HIRE US?</h3>
-          <p>This is a paragraph. text will be determined later. This is a paragraph.</p>
+          <p>Choosing us means choosing quality and reliability. We are dedicated to providing thorough inspections and detailed reports, ensuring your peace of mind. Trust us to deliver exceptional service every time.</p>
         </div>
         <div className="flex flex-col bg-light p-6 gap-4 justify-center place-items-center w-10/12 sm:w-1/2 lg:w-1/5">
           <FontAwesomeIcon icon={faMagnifyingGlass} transform='shrink-6' mask={faCircle} size="3x" />
           <h3 className="text-2xl sm:text-3xl">WHAT WE INSPECT</h3>
-          <p>This is a paragraph. text will be determined later. This is a paragraph.</p>
+          <p>We inspect all major systems and components of your property, including the structure, roof, plumbing, electrical, HVAC, and more. Our comprehensive inspections ensure that no detail is overlooked.</p>
         </div>
         <div className="flex flex-col bg-light p-6 gap-4 justify-center place-items-center w-10/12 sm:w-1/2 lg:w-1/5">
           <FontAwesomeIcon icon={faClipboard} transform='shrink-6' mask={faCircle} size="3x" />
-          <h3 className="text-2xl sm:text-3xl">SAMPLE REPORT</h3>
-          <p>This is a paragraph. text will be determined later. This is a paragraph.</p>
+          <h3 className="text-2xl sm:text-3xl">DETAILED REPORTS</h3>
+          <p>Our reports provide a clear and detailed overview of our findings. Each report includes photos, descriptions, and recommendations, making it easy for you to understand the condition of your property.</p>
         </div>
       </div>
 
