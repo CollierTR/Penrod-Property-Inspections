@@ -12,14 +12,18 @@ export default function About() {
 
   return (
     <div>
-      <div className="flex relative h-[600px] md:h-[600px] lg:h-[620px] xl:[1740px] flex-col justify-center place-items-center text-center">
+      <div className="flex relative h-[800px] md:h-[800px] lg:h-[820px] xl:[1740px] flex-col justify-center place-items-center text-center">
 
         <div className='max-w-6xl absolute z-20 text-light flex flex-col gap-5 sm:gap-6 justify-center place-items-center shadow'>
           <div className=" text-4xl sm:text-6xl ">
             <h1>About Us</h1>
           </div>
           <div className="w-1/2 my-0 mx-auto border sm:border-2 border-light"></div>
-          <p className='text-2xl sm:text-3xl text-wrap w-3/4'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum maxime inventore tempora aperiam hic nam, itaque est amet et porro iusto saepe tenetur ipsam sit aspernatur cum perferendis exercitationem corrupti.</p>
+          <p className='text-2xl sm:text-3xl w-3/4 text-pretty'>Penrod Property Inspections provides the best comprehensive home inspections and sewer/septic system evaluations in Northen Missouri. Our experienced inspectors deliver detailed reports, ensuring you make informed decisions about your property.
+          <br />
+          <br />
+          <span className="font-semibold text-pretty">Don't risk the future of your home. Schedule your inspection today.</span>
+          </p>
           <a href="tel:6604122963">
             <Button padding='py-2 px-4' size='text-lg sm:text-xl' text='Give Us a Call!' isCallButton="yes"></Button>
           </a>
@@ -42,11 +46,11 @@ export default function About() {
           <div className="flex flex-col-reverse lg:flex-row-reverse bg-primary mx-auto gap-6 justify-center place-items-center py-12 w-10/12">
             <div className="flex flex-col gap-4 w-full lg:w-1/2 px-2">
               <h1 className="text-center text-4xl sm:text-6xl mb-2 text-light">Meet the Owner</h1>
-              <p className="text-xl sm:text-2xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam hic aut quisquam officia veritatis sunt eos, ipsa commodi, doloremque nemo, laboriosam velit nisi tempore necessitatibus eligendi numquam odio nobis provident!</p>
-              <p className="text-2xl">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam hic aut quisquam officia veritatis sunt eos, ipsa commodi, doloremque nemo, laboriosam velit nisi tempore necessitatibus eligendi numquam odio nobis provident!</p>
+              <p className="text-xl sm:text-2xl">Kyle is passionate about providing exceptional home inspection services. He takes pride in delivering accurate and informative reports, ensuring you have the knowledge you need to make informed decisions about your property.</p>
+              <p className="text-2xl">He is committed to building strong relationships with clients and providing personalized service. Whether you're a first-time homebuyer or a seasoned homeowner, he is here to guide you through the inspection process.</p>
             </div>
-            <div className="flex justify-center place-items-center w-full lg:w-1/2">
-              <img src="https://placehold.co/500x500?text=Picture+Of+You+Here" alt="" />
+            <div className="flex justify-center place-items-center w-full xl:w-1/2">
+              <img src="/KyleOnLadder.png" alt="" className="w-4/5 lg:w-2/3 rounded-3xl border-4 border-dark"/>
             </div>
           </div>
 

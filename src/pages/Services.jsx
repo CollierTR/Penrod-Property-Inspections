@@ -24,7 +24,7 @@ export default function Services() {
             <h1>Our Services</h1>
           </div>
           <div className="w-1/2 my-0 mx-auto border sm:border-2 border-light"></div>
-          <p className='text-2xl sm:text-3xl text-pretty text-wrap w-3/4 mb-6'>We provide a variety of services to meet your needs. Explore what we offer and find out how we can help you achieve your goals.</p>
+          <p className='text-2xl sm:text-3xl text-pretty w-3/4 mb-6'>We provide a variety of services to meet your needs. Explore what we offer and find out how we can help you achieve your goals.</p>
           <a href="tel:6604122963">
             <Button padding='py-3 px-6' isCallButton="true" size='text-lg sm:text-xl' text='Give Us a Call!'></Button>
           </a>
