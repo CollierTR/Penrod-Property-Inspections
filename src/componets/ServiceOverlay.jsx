@@ -44,7 +44,7 @@ export default function ServiceOverlay() {
         <Nav></Nav>
         <div className="pb-10 lg:py-28 flex flex-col lg:flex-row w-10/12 justify-center place-items-center mx-auto gap-6">
           <div className="flex place-items-start justify-center w-10/12 lg:w-1/2">
-            <img src={serviceMatch.image} alt="" className="w-full lg:w-3/4 border-8 rounded-xl border-dark" />
+            <img src={serviceMatch.image} alt="" className="mt-6 lg: mt-0 w-full lg:w-3/4 border-8 rounded-xl border-dark" />
           </div>
 
           <div className="text-center lg:text-start flex text-dark w-10/12 lg:w-1/2 flex-col justify-start place-items-center lg:place-items-start gap-6">
