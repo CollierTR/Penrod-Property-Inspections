@@ -9,7 +9,7 @@ export default function ServicesSection() {
   return (
 
 
-    <div className="py-20 flex w-screen bg-primary flex-col justify-center place-items-center text-center gap-8 text-light border-y-2 border-y-light">
+    <div className="py-20 flex w-full bg-primary flex-col justify-center place-items-center text-center gap-8 text-light border-y-2 border-y-light">
 
 
       {

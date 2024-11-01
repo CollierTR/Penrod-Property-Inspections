@@ -22,7 +22,7 @@ export default function About() {
           <p className='text-2xl sm:text-3xl w-3/4 text-pretty'>Penrod Property Inspections provides the best comprehensive home inspections and sewer/septic system evaluations in Northen Missouri. Our experienced inspectors deliver detailed reports, ensuring you make informed decisions about your property.
           <br />
           <br />
-          <span className="font-semibold text-pretty">Don't risk the future of your home. Schedule your inspection today.</span>
+          <span className="lg:font-semibold text-pretty">Don't risk the future of your home. Schedule your inspection today.</span>
           </p>
           <a href="tel:6604122963">
             <Button padding='py-2 px-4' size='text-lg sm:text-xl' text='Give Us a Call!' isCallButton="yes"></Button>
