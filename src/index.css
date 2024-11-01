@@ -43,3 +43,9 @@ body {
 label {
   color: white
 }
+
+.image-fit {
+  object-fit: cover;
+  overflow-x: hidden;
+  object-position: 50% 5%;
+}

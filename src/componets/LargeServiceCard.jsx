@@ -1,6 +1,5 @@
 import Button from "./Button";
 import { Link } from "react-router-dom";
-import ServiceCard from "./ServiceCard";
 
 const genericCard = {
   title: 'Card Title',
@@ -17,8 +16,8 @@ export default function LargeServiceCard({ img = genericCard.img, buttonText = g
     <div className=" flex-grow bg-light w-full border-dark border-2">
       <div className="flex flex-col bg-light  justify-center place-items-center w-full">
 
-        <div className="h-96 bg-dark w-full">
-          <img src={img} alt="" className="size-full" />
+        <div className="h-96 bg-dark w-full flex justify-center place-items-center ">
+          <img src={img} alt="" className="h-full min-w-full image-fit" />
         </div>
 
         <div className="flex flex-col gap-4 justify-center place-items-center p-6">
