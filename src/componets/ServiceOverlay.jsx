@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faCalendarDays } from "@fortawesome/free-solid-svg-icons"
+import { faCalendarDays, faPhone } from "@fortawesome/free-solid-svg-icons"
 import CertificationCloud from "./CertificationCloud"
 import Nav from "./Nav"
 import Footer from "./Footer"
@@ -53,7 +53,7 @@ export default function ServiceOverlay() {
             <div className="flex w-fit justify-start place-items-center">
               <a href="tel:6604122963">
                 <button className=" bg-primary text-light  rounded-full border-4 border-dark py-2 px-4 text-xl">
-                  <FontAwesomeIcon icon={faCalendarDays} className="mr-4" />
+                  <FontAwesomeIcon icon={faPhone} className="mr-4" />
                   Schedule Today!
                 </button>
               </a>
