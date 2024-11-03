@@ -27,9 +27,7 @@ export default function Footer() {
           <div className="hidden sm:flex flex-col gap-4 justify-center place-items-center">
             <h3 className='text-xl font-bold'>STAY IN TOUCH</h3>
             <div className="flex gap-4">
-              <FontAwesomeIcon icon={faFacebook} size='2x' />
-              <FontAwesomeIcon icon={faQuestion} transform='shrink-7' mask={faCircle} size='2x' />
-              <FontAwesomeIcon icon={faQuestion} transform='shrink-7' mask={faCircle} size='2x' />
+              <a href="https://www.facebook.com/profile.php?id=61551599220654"><FontAwesomeIcon icon={faFacebook} size='2x' /></a>
             </div>
           </div>
         </div>
