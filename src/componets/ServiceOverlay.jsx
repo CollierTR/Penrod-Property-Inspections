@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faCalendarDays, faPhone } from "@fortawesome/free-solid-svg-icons"
+import { faPhone } from "@fortawesome/free-solid-svg-icons"
 import CertificationCloud from "./CertificationCloud"
 import Nav from "./Nav"
 import Footer from "./Footer"

@@ -23,8 +23,8 @@ export default function ReviewCard() {
       </div>
 
       <div className="flex flex-col">
-        <p className="font-bold">John Doe</p>
-        <p className="italic">2/28/1998</p>
+        <p className="font-bold">James Dean</p>
+        <p className="italic">2/28/2023</p>
       </div>
 
     </div>

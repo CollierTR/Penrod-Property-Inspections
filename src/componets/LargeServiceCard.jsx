@@ -13,7 +13,7 @@ export default function LargeServiceCard({ img = genericCard.img, buttonText = g
 
 
   return (
-    <div className=" flex-grow bg-light w-full border-dark border-2">
+    <div className=" flex-grow bg-light w-full rounded-xl overflow-hidden border-dark border-2">
       <div className="flex flex-col bg-light  justify-center place-items-center w-full">
 
         <div className="h-96 bg-dark w-full flex justify-center place-items-center ">
