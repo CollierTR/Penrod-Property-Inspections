@@ -24,7 +24,7 @@ export default function Nav() {
       }
       <div className="flex border-b-light border-b-2 bg-primary h-20 sm:hidden justify-between place-items-center text-light px-5">
 
-        <img src={logoClose} width={'60px'} alt="" />
+        <img src={logoClose} width={'60px'} alt="Penrod Property Inspections Logo" />
         <FontAwesomeIcon onClick={() => (setMenuState(true))} icon={faBars} size="3x" />
 
 
@@ -45,7 +45,7 @@ export default function Nav() {
 
 
         <div className="relative z-30">
-          <img src={redLogo} alt="" className=" relative z-30 top-10 w-[130px] lg:w-[150px] xl:w-[160px]" />
+          <img src={redLogo} alt="Penrod Property Inspections Logo" className=" relative z-30 top-10 w-[130px] lg:w-[150px] xl:w-[160px]" />
         </div>
 
 

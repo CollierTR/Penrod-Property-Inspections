@@ -12,7 +12,7 @@ export default function Footer() {
 
         <div className="flex flex-col sm:flex-row justify-center place-items-center sm:place-items-start gap-20 lg:gap-36 2xl:gap-48 m-4">
           {/*SECT: Logo*/}
-          <img src={logo} alt="" className='-mt-5 hidden sm:block w-1/6' />
+          <img src={logo} alt="Penrod Property Inspections Logo" className='-mt-5 hidden sm:block w-1/6' />
           {/*SECT: Contact us*/}
           <div className="flex flex-col gap-4">
             <h3 className='text-xl font-bold'>CONTACT US</h3>

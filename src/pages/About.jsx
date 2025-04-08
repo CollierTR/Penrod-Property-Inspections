@@ -50,7 +50,7 @@ export default function About() {
               <p className="text-2xl">He is committed to building strong relationships with clients and providing personalized service. Whether you're a first-time homebuyer or a seasoned homeowner, he is here to guide you through the inspection process.</p>
             </div>
             <div className="flex justify-center place-items-center w-full xl:w-1/2">
-              <img src="/KyleOnLadder.png" alt="" className="w-4/5 lg:w-2/3 rounded-3xl border-4 border-dark"/>
+              <img src="/KyleOnLadder.png" alt="The owner on a ladder inspecting a house" className="w-4/5 lg:w-2/3 rounded-3xl border-4 border-dark"/>
             </div>
           </div>
 

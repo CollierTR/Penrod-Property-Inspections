@@ -17,7 +17,7 @@ export default function LargeServiceCard({ img = genericCard.img, buttonText = g
       <div className="flex flex-col bg-light  justify-center place-items-center w-full">
 
         <div className="h-96 bg-dark w-full flex justify-center place-items-center ">
-          <img src={img} alt="" className="h-full min-w-full image-fit" />
+          <img src={img} alt={`Image of ${title}`} className="h-full min-w-full image-fit" />
         </div>
 
         <div className="flex flex-col gap-4 justify-center place-items-center p-6">
