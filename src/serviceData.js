@@ -33,7 +33,7 @@ const serviceData = [
     Description:
       "Ensure your home is safe from radon with our professional testing services. Our certified experts use reliable methods to detect radon levels, providing you with accurate results and peace of mind.",
     image:
-      "https://alen.com/cdn/shop/articles/radon-tips-important-information-to-know-about-radon-638390.jpg?v=1707424851",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfPcLQvemj8TJSwaw2RKuvPy6yPuuw9iXF9g&s",
     Price: 567,
     id: 4,
     link: "radon-testing",
